@@ -1,0 +1,9 @@
+ablation,concepts,n_concepts,accuracy_drop,accuracy_drop_std,macro_f1_drop,macro_f1_drop_std
+top_1_shap_concepts,spectral_centroid_mean,1,-0.004597701149425287,,0.014064561216081545,
+random_1_concepts_mean_20_runs,random,1,0.0015134099616858187,0.014582969301069565,0.0015992961207748166,0.007275701300236193
+top_3_shap_concepts,"spectral_centroid_mean, spectral_rolloff_mean, spectral_bandwidth_mean",3,0.00881226053639847,,0.021693296953154778,
+random_3_concepts_mean_20_runs,random,3,0.014559386973180077,0.017821999640665914,0.010150333703265135,0.009001655202849996
+top_5_shap_concepts,"spectral_centroid_mean, spectral_rolloff_mean, spectral_bandwidth_mean, mfcc_2_mean, mfcc_1_mean",5,0.04176245210727969,,0.038434165246720164,
+random_5_concepts_mean_20_runs,random,5,0.018026819923371646,0.021435214186537804,0.018711851408206342,0.010990795284788055
+top_10_shap_concepts,"spectral_centroid_mean, spectral_rolloff_mean, spectral_bandwidth_mean, mfcc_2_mean, mfcc_1_mean, pitch_proxy_std, mfcc_3_mean, pitch_proxy_mean, zero_crossing_rate_mean, mfcc_2_std",10,0.0007662835249042099,,0.0245663047592026,
+random_10_concepts_mean_20_runs,random,10,0.03296934865900382,0.02071222619214911,0.028324083454616556,0.011826099580954014

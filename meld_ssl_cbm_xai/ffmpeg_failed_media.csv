@@ -1,0 +1,3 @@
+split,Dialogue_ID,Utterance_ID,label,media_folder,media_path,error
+train,125,3,neutral,train_splits,/content/XAI_MELD_Project/data/MELD/MELD.Raw/train_splits/dia125_utt3.mp4,"ffmpeg failed for /content/XAI_MELD_Project/data/MELD/MELD.Raw/train_splits/dia125_utt3.mp4. ffmpeg stderr: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x5cc2727d1080] moov atom not found
+/content/XAI_MELD_Project/data/MELD/MELD.Raw/train_splits/dia125_utt3.mp4: Invalid data found when processing input"

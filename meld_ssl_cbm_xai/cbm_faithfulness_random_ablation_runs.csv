@@ -1,0 +1,81 @@
+n_concepts,rep,concepts,accuracy_drop,macro_f1_drop
+1,0,mfcc_7_std,-0.0019157088122605526,-0.0004062630352328067
+1,1,spectral_rolloff_mean,0.040613026819923376,0.019890645066224705
+1,2,mfcc_12_mean,-0.0022988505747126575,-0.003127553580774517
+1,3,duration,-0.012260536398467442,-0.0034051823163343264
+1,4,mfcc_3_std,-0.013409961685823757,-0.00541267711128654
+1,5,mfcc_13_mean,-0.0022988505747126575,0.0023803322564257823
+1,6,mfcc_12_mean,-0.0022988505747126575,-0.003127553580774517
+1,7,mfcc_12_mean,-0.0022988505747126575,-0.003127553580774517
+1,8,zero_crossing_rate_mean,0.010727969348658994,0.009445935069102379
+1,9,mfcc_9_mean,-0.004980842911877392,-0.002150863183724011
+1,10,mfcc_11_std,-0.0022988505747126575,-9.842819513516954e-05
+1,11,mfcc_12_std,0.007662835249042155,0.003422306152801674
+1,12,mfcc_12_std,0.007662835249042155,0.003422306152801674
+1,13,mfcc_6_mean,-0.018007662835249044,-0.007946594705294852
+1,14,mfcc_8_mean,-0.007662835249042155,0.0009959337322352768
+1,15,mfcc_9_mean,-0.004980842911877392,-0.002150863183724011
+1,16,spectral_flatness_mean,0.0007662835249042099,0.0017366430480616202
+1,17,spectral_flatness_mean,0.0007662835249042099,0.0017366430480616202
+1,18,mfcc_2_mean,0.03754789272030651,0.01982773273987315
+1,19,mfcc_4_std,-0.0007662835249042099,8.097762296371824e-05
+3,0,"mfcc_4_mean, mfcc_10_mean, mfcc_8_std",0.02337164750957854,0.0060598038188831305
+3,1,"mfcc_4_std, mfcc_11_mean, mfcc_1_std",0.004214559386973182,0.0012062019573385874
+3,2,"onset_rate_proxy, mfcc_12_std, pitch_proxy_std",0.0007662835249042099,0.0008803789872545431
+3,3,"mfcc_12_std, mfcc_13_mean, mfcc_11_std",0.00804597701149426,0.005663747951472925
+3,4,"energy_mean, mfcc_6_mean, mfcc_3_mean",0.0,0.007441900373538146
+3,5,"pitch_proxy_mean, mfcc_13_std, mfcc_11_std",0.02068965517241378,0.012353582145636005
+3,6,"mfcc_3_mean, mfcc_7_mean, mfcc_3_std",0.00957854406130268,0.014007831683028549
+3,7,"mfcc_7_std, energy_mean, spectral_flatness_mean",-0.00038314176245210496,0.0030602066918418713
+3,8,"energy_mean, mfcc_5_mean, mfcc_2_std",0.01034482758620689,0.02048401099046837
+3,9,"mfcc_10_mean, energy_std, mfcc_10_std",0.0030651340996168674,0.0028256704374107766
+3,10,"mfcc_7_mean, energy_mean, mfcc_1_mean",-0.0007662835249042099,0.0026405637982363783
+3,11,"mfcc_8_std, mfcc_10_mean, pitch_proxy_std",-0.009195402298850575,-0.0022494857908735566
+3,12,"mfcc_7_mean, energy_std, mfcc_12_std",0.013409961685823757,0.007037743657399037
+3,13,"spectral_bandwidth_mean, mfcc_9_std, mfcc_7_std",0.02183908045977012,0.012688135049088362
+3,14,"mfcc_4_std, mfcc_5_std, mfcc_9_mean",0.004597701149425287,0.006420966662065514
+3,15,"spectral_rolloff_mean, mfcc_2_std, mfcc_13_mean",0.03908045977011493,0.02432918664416775
+3,16,"mfcc_2_std, mfcc_11_mean, mfcc_4_mean",0.03026819923371646,0.018811749448959164
+3,17,"mfcc_4_mean, spectral_rolloff_mean, mfcc_1_std",0.06398467432950192,0.03148059978750695
+3,18,"spectral_bandwidth_mean, mfcc_3_mean, spectral_rolloff_mean",0.007662835249042155,0.006890325251787094
+3,19,"mfcc_2_mean, mfcc_9_mean, voiced_ratio_proxy",0.040613026819923376,0.020973554520093085
+5,0,"mfcc_8_std, spectral_centroid_mean, mfcc_1_std, mfcc_10_mean, mfcc_3_std",0.0,0.021383385569784946
+5,1,"spectral_centroid_mean, mfcc_10_mean, voiced_ratio_proxy, pitch_proxy_mean, mfcc_9_mean",-0.011111111111111127,0.008412841873984112
+5,2,"mfcc_12_mean, mfcc_8_mean, energy_std, pitch_proxy_std, mfcc_12_std",-0.0038314176245210774,0.0018886944501801117
+5,3,"mfcc_2_mean, mfcc_9_mean, mfcc_10_mean, mfcc_10_std, spectral_centroid_mean",0.03524904214559388,0.03167329576819056
+5,4,"zero_crossing_rate_mean, mfcc_9_mean, mfcc_12_mean, mfcc_10_mean, mfcc_10_std",0.009961685823754785,0.008230102997185573
+5,5,"mfcc_12_mean, duration, spectral_rolloff_mean, mfcc_11_mean, mfcc_12_std",0.04176245210727969,0.01877045149208162
+5,6,"zero_crossing_rate_mean, mfcc_11_std, mfcc_9_std, mfcc_10_std, mfcc_2_std",0.011494252873563204,0.013689834453574662
+5,7,"mfcc_2_mean, mfcc_10_std, spectral_bandwidth_mean, onset_rate_proxy, mfcc_4_std",0.06015325670498084,0.02874509556237642
+5,8,"spectral_bandwidth_mean, mfcc_2_std, mfcc_10_std, voiced_ratio_proxy, mfcc_9_mean",0.028352490421455934,0.026611608579104357
+5,9,"spectral_rolloff_mean, mfcc_10_std, mfcc_12_std, pitch_proxy_mean, mfcc_13_mean",0.039846743295019166,0.025869172773790944
+5,10,"duration, energy_std, spectral_bandwidth_mean, pitch_proxy_std, mfcc_1_std",0.03295019157088122,0.03054610424867968
+5,11,"pitch_proxy_mean, energy_mean, mfcc_7_std, energy_std, pitch_proxy_std",0.0022988505747126298,0.006856800133516999
+5,12,"mfcc_13_std, spectral_centroid_mean, pitch_proxy_std, mfcc_9_mean, mfcc_5_mean",-0.0007662835249042099,0.016698109943615064
+5,13,"spectral_flatness_mean, onset_rate_proxy, mfcc_10_std, mfcc_4_mean, mfcc_8_std",0.02720306513409962,0.01294803267924105
+5,14,"mfcc_2_std, mfcc_10_mean, spectral_centroid_mean, energy_mean, mfcc_10_std",-0.008429118773946365,0.015328385768737851
+5,15,"mfcc_8_mean, mfcc_5_std, mfcc_13_mean, pitch_proxy_mean, mfcc_7_mean",-0.0011494252873563149,0.006769599761928757
+5,16,"mfcc_10_mean, energy_std, mfcc_4_mean, spectral_flatness_mean, mfcc_3_mean",0.039846743295019166,0.024197835229740283
+5,17,"zero_crossing_rate_mean, spectral_bandwidth_mean, mfcc_1_mean, mfcc_3_std, spectral_flatness_mean",0.0478927203065134,0.04604142371254308
+5,18,"mfcc_9_std, mfcc_2_std, mfcc_10_std, mfcc_12_std, pause_ratio",0.0,0.007653260501584186
+5,19,"mfcc_7_mean, mfcc_3_mean, mfcc_9_mean, spectral_centroid_mean, mfcc_13_mean",0.00881226053639847,0.021922992664286572
+10,0,"mfcc_1_std, onset_rate_proxy, mfcc_1_mean, zero_crossing_rate_mean, mfcc_5_std, mfcc_2_std, mfcc_5_mean, mfcc_12_mean, spectral_flatness_mean, mfcc_7_mean",0.01609195402298849,0.02297804937594561
+10,1,"spectral_rolloff_mean, pitch_proxy_mean, spectral_bandwidth_mean, mfcc_12_mean, mfcc_10_mean, spectral_flatness_mean, duration, mfcc_6_mean, mfcc_6_std, mfcc_11_std",0.0007662835249042099,0.008374225012033276
+10,2,"pitch_proxy_mean, mfcc_1_std, mfcc_5_mean, onset_rate_proxy, mfcc_13_std, mfcc_8_std, zero_crossing_rate_mean, mfcc_9_std, energy_mean, mfcc_6_std",0.04597701149425287,0.027261083968006194
+10,3,"mfcc_6_std, mfcc_1_std, mfcc_8_mean, onset_rate_proxy, mfcc_7_std, mfcc_5_mean, mfcc_2_std, energy_std, spectral_rolloff_mean, mfcc_3_mean",0.050957854406130265,0.03728209958409312
+10,4,"spectral_flatness_mean, mfcc_6_std, mfcc_8_std, mfcc_3_std, pitch_proxy_std, mfcc_9_std, mfcc_12_std, mfcc_4_mean, mfcc_1_mean, duration",0.04674329501915708,0.04034266277302137
+10,5,"spectral_centroid_mean, mfcc_11_std, spectral_bandwidth_mean, pitch_proxy_std, mfcc_2_std, mfcc_4_mean, mfcc_7_std, mfcc_10_std, pitch_proxy_mean, mfcc_3_mean",0.0007662835249042099,0.019574365182515235
+10,6,"spectral_flatness_mean, energy_mean, pitch_proxy_mean, mfcc_1_mean, mfcc_4_mean, energy_std, mfcc_11_std, mfcc_9_mean, mfcc_5_std, mfcc_7_std",0.0314176245210728,0.0192260288316487
+10,7,"pause_ratio, mfcc_13_std, mfcc_4_std, mfcc_8_mean, mfcc_4_mean, voiced_ratio_proxy, mfcc_1_mean, mfcc_9_mean, spectral_rolloff_mean, mfcc_11_std",0.0846743295019157,0.05297950996968412
+10,8,"mfcc_11_std, mfcc_7_mean, mfcc_3_std, mfcc_6_mean, pause_ratio, mfcc_8_mean, zero_crossing_rate_mean, mfcc_2_mean, mfcc_10_std, duration",0.0111111111111111,0.026606933186133247
+10,9,"energy_mean, mfcc_2_std, mfcc_9_std, mfcc_9_mean, mfcc_2_mean, mfcc_12_mean, mfcc_4_mean, spectral_rolloff_mean, mfcc_11_mean, pause_ratio",0.05670498084291187,0.050643392046227004
+10,10,"pitch_proxy_mean, spectral_bandwidth_mean, mfcc_8_std, mfcc_5_mean, mfcc_3_mean, onset_rate_proxy, spectral_rolloff_mean, mfcc_3_std, mfcc_9_mean, voiced_ratio_proxy",0.00957854406130268,0.008748587017286341
+10,11,"pitch_proxy_std, mfcc_7_std, spectral_rolloff_mean, mfcc_10_std, mfcc_5_mean, onset_rate_proxy, mfcc_4_std, mfcc_7_mean, zero_crossing_rate_mean, mfcc_9_mean",0.04099616858237548,0.020290412866305174
+10,12,"zero_crossing_rate_mean, spectral_rolloff_mean, mfcc_5_mean, mfcc_8_mean, spectral_flatness_mean, mfcc_11_std, mfcc_8_std, duration, mfcc_5_std, energy_mean",0.04444444444444445,0.03159030644324953
+10,13,"spectral_flatness_mean, spectral_bandwidth_mean, pitch_proxy_std, spectral_rolloff_mean, mfcc_11_std, mfcc_10_mean, mfcc_1_std, mfcc_9_mean, pause_ratio, mfcc_4_mean",0.0367816091954023,0.023979397954241616
+10,14,"mfcc_2_std, mfcc_7_mean, mfcc_11_std, mfcc_7_std, mfcc_10_std, mfcc_9_mean, spectral_flatness_mean, mfcc_6_mean, mfcc_5_std, spectral_bandwidth_mean",0.028352490421455934,0.03184532044834021
+10,15,"mfcc_13_mean, mfcc_4_mean, mfcc_10_std, spectral_bandwidth_mean, pitch_proxy_mean, mfcc_6_std, spectral_centroid_mean, mfcc_2_std, mfcc_3_mean, zero_crossing_rate_mean",0.02490421455938696,0.024941413693275766
+10,16,"mfcc_8_mean, mfcc_10_mean, mfcc_5_std, mfcc_7_std, spectral_bandwidth_mean, mfcc_4_std, mfcc_9_std, duration, spectral_flatness_mean, pause_ratio",0.021072796934865884,0.03252517585930728
+10,17,"mfcc_2_mean, mfcc_2_std, mfcc_12_mean, mfcc_4_std, duration, mfcc_3_std, pitch_proxy_std, energy_std, mfcc_7_std, mfcc_9_std",0.04597701149425287,0.04053087193625962
+10,18,"mfcc_8_mean, mfcc_6_mean, energy_mean, duration, zero_crossing_rate_mean, mfcc_2_mean, mfcc_10_mean, spectral_centroid_mean, mfcc_11_mean, mfcc_4_std",0.020306513409961674,0.02653557746182056
+10,19,"mfcc_7_mean, energy_std, pitch_proxy_mean, mfcc_3_mean, mfcc_2_mean, mfcc_5_mean, mfcc_12_mean, pitch_proxy_std, mfcc_8_std, mfcc_4_mean",0.04176245210727969,0.02022625548293719

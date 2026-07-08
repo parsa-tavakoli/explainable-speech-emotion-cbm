@@ -1,0 +1,40 @@
+concept,mean_abs_shap,speech_concept_family
+spectral_centroid_mean,0.029871177320335417,spectral shape / noisiness
+spectral_rolloff_mean,0.025698429238885843,spectral shape / noisiness
+spectral_bandwidth_mean,0.024670138869264557,spectral shape / noisiness
+mfcc_2_mean,0.01951710574189475,cepstral / vocal tract shape
+mfcc_1_mean,0.017521242538498894,cepstral / vocal tract shape
+pitch_proxy_std,0.013625238569859715,pitch / voicing
+mfcc_3_mean,0.012672486836110216,cepstral / vocal tract shape
+pitch_proxy_mean,0.01162369127098017,pitch / voicing
+zero_crossing_rate_mean,0.011551310468328137,spectral shape / noisiness
+mfcc_2_std,0.011388427403058992,cepstral / vocal tract shape
+mfcc_4_mean,0.010758443366909272,cepstral / vocal tract shape
+duration,0.009043227478823863,energy / pauses / timing
+energy_mean,0.008786420124793233,energy / pauses / timing
+mfcc_5_mean,0.007552141163783773,cepstral / vocal tract shape
+mfcc_6_mean,0.007529601246134989,cepstral / vocal tract shape
+mfcc_4_std,0.006892706628222559,cepstral / vocal tract shape
+mfcc_12_std,0.006741443688038829,cepstral / vocal tract shape
+energy_std,0.0065671788846198755,energy / pauses / timing
+mfcc_5_std,0.006421826333286432,cepstral / vocal tract shape
+pause_ratio,0.006309155073813396,energy / pauses / timing
+spectral_flatness_mean,0.005920585815463602,spectral shape / noisiness
+mfcc_3_std,0.005914150969199497,cepstral / vocal tract shape
+mfcc_13_std,0.005545378164276629,cepstral / vocal tract shape
+mfcc_13_mean,0.0044965593931526465,cepstral / vocal tract shape
+voiced_ratio_proxy,0.0044611858088599654,pitch / voicing
+mfcc_11_mean,0.00417832767918898,cepstral / vocal tract shape
+mfcc_8_mean,0.004086833589429022,cepstral / vocal tract shape
+mfcc_1_std,0.0038606040545747463,cepstral / vocal tract shape
+mfcc_9_mean,0.003837860360762156,cepstral / vocal tract shape
+mfcc_7_std,0.0037537892729399757,cepstral / vocal tract shape
+mfcc_8_std,0.003500885930511013,cepstral / vocal tract shape
+mfcc_12_mean,0.0034866332382747353,cepstral / vocal tract shape
+mfcc_7_mean,0.003482587711270288,cepstral / vocal tract shape
+mfcc_10_mean,0.0032155885452902094,cepstral / vocal tract shape
+mfcc_11_std,0.003176121741069923,cepstral / vocal tract shape
+onset_rate_proxy,0.002978057757986668,speaking-rate proxy
+mfcc_9_std,0.002672795757710265,cepstral / vocal tract shape
+mfcc_10_std,0.002159899211488335,cepstral / vocal tract shape
+mfcc_6_std,0.0020522527256968924,cepstral / vocal tract shape

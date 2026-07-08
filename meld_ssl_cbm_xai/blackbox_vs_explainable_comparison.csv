@@ -1,0 +1,4 @@
+model,input,backbone,explanation_type,accuracy,macro_f1,weighted_f1,macro_precision,macro_recall
+Black-box SSL classifier,wav2vec/HuBERT frozen embedding,facebook/hubert-base-ls960,none by design; optional post-hoc only,0.271264367816092,0.21356053362317012,0.3057747379147884,0.23117112423916572,0.24582998275184767
+Concept Bottleneck Model,SSL embedding -> predicted acoustic proxy concepts -> classifier,facebook/hubert-base-ls960,explainable by design + SHAP over concepts + interventions,0.23448275862068965,0.19240095913432248,0.26349417896426364,0.21445220232231624,0.24487263407232354
+Oracle concept classifier upper bound,extracted acoustic proxy concepts directly,no SSL prediction step at test time,concept-level upper bound reference,0.2222222222222222,0.18494380001135952,0.25446791367856875,0.21550454143211678,0.22175385505032558
